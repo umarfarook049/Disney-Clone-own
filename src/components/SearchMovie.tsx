@@ -64,7 +64,7 @@ const SearchMovie: React.FC = () => {
                             <input
                                 type="text"
                                 placeholder="Search Movies..."
-                                className="w-full outline-none bg-transparent text-gray-600 text-sm"
+                                className="w-full outline-none bg-transparent text-gray-600 text-sm text-white"
                                 value={searchTerm}
                                 onChange={(e) => setSearchTerm(e.target.value)} // Update search term
                             />
